@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Math Project</title>
+    <script src="js/math.js"></script>
+</head>
+
+<body>
+
+
+
+    <div class="container ">
+
+
+        <h3>Les entre</h3>
+        <input placeholder="Donner la valeur p" />
+        <input id="val-m" placeholder="Donner la valeur m" />
+        <input placeholder="Donner la valeur n" />
+
+        <div id="functions">
+            <h3>Fonctions : </h3>
+            <div id="f-inputs">
+
+            </div>
+        </div>
+
+
+
+        <button id="calculate" class="btn btn-success">Calculer</button>
+    </div>
+
+
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/mathlive"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded',
+            () => MathLive.renderMathInDocument()
+        );
+    </script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
