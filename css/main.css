@@ -103,7 +103,7 @@ textarea:focus {
     color: #242424;
     border-right: 3px solid tomato;
     border-left: 3px solid tomato;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #f-inputs {
@@ -112,4 +112,16 @@ textarea:focus {
 
 math-field {
     min-width: 300px;
+}
+
+
+
+.resultat-div {
+    font-size: 20px;
+    padding: 10px
+}
+
+.resultat-div span {
+    color: green;
+    font-weight: 600;
 }
